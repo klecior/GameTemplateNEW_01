@@ -41,8 +41,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\40016475\Downloads\RpgGame-master\RpgGame-master\SDL2gameTemplate\include\SDL2-2.0.4\include;C:\Users\40016475\Downloads\RpgGame-master\RpgGame-master\SDL2gameTemplate\include\SDL2_image-2.0.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\40016475\Downloads\RpgGame-master\RpgGame-master\SDL2gameTemplate\include\SDL2_image-2.0.1\lib\x86;C:\Users\40016475\Downloads\RpgGame-master\RpgGame-master\SDL2gameTemplate\include\SDL2-2.0.4\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>($SolutionDir)\include\SDL2-2.0.4\include;($SolutionDir)\include\SDL2_image-2.0.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>($SolutionDir)\include\SDL2_image-2.0.1\lib\x86;($SolutionDir)\SDL2gameTemplate\include\SDL2-2.0.4\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
