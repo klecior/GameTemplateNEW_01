@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(SolutionDir)\include\SDL2-2.0.4\include;$(SolutionDir)\include\SDL2_image-2.0.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\include\SDL2_image-2.0.1\lib\x86;$(SolutionDir)\SDL2gameTemplate\include\SDL2-2.0.4\lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)\include\SDL2_image-2.0.1\lib\x86;$(SolutionDir)\include\SDL2-2.0.4\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
