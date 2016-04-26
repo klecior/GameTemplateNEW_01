@@ -103,6 +103,7 @@
     <ClCompile Include="title.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="audioManager.h" />
     <ClInclude Include="baseGameState.h" />
     <ClInclude Include="button.h" />
     <ClInclude Include="constants.h" />
