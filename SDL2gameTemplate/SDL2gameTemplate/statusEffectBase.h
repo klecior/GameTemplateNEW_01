@@ -8,7 +8,7 @@ public:
 	virtual void update();
 	virtual void effect();
 	float getTimeRemainingSeconds();
-	int timeRemainingMS;
+	int timeRemainingMS, startTime, endTime;
 
 };
 
