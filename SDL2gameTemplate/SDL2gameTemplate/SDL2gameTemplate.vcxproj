@@ -87,6 +87,7 @@
   <ItemGroup>
     <ClCompile Include="baseGameState.cpp" />
     <ClCompile Include="button.cpp" />
+    <ClCompile Include="character.cpp" />
     <ClCompile Include="exampleClass.cpp" />
     <ClCompile Include="gameManager.cpp" />
     <ClCompile Include="gameObject.cpp" />
@@ -99,12 +100,15 @@
     <ClCompile Include="SDLManager.cpp" />
     <ClCompile Include="sequenceAnimation.cpp" />
     <ClCompile Include="SpriteManager.cpp" />
+    <ClCompile Include="statusEffectFire.cpp" />
+    <ClCompile Include="statusEffectBase.cpp" />
     <ClCompile Include="textureImage.cpp" />
     <ClCompile Include="title.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="baseGameState.h" />
     <ClInclude Include="button.h" />
+    <ClInclude Include="character.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="exampleClass.h" />
     <ClInclude Include="gameManager.h" />
@@ -117,6 +121,8 @@
     <ClInclude Include="SDLManager.h" />
     <ClInclude Include="sequenceAnimation.h" />
     <ClInclude Include="SpriteManager.h" />
+    <ClInclude Include="statusEffectFire.h" />
+    <ClInclude Include="statusEffectBase.h" />
     <ClInclude Include="textureImage.h" />
     <ClInclude Include="title.h" />
   </ItemGroup>
